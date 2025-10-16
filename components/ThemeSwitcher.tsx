@@ -21,15 +21,18 @@ const themes = {
 };
 
 export function ThemeSwitcher() {
-  const [currentTheme, setCurrentTheme] = useState<Theme>("warm");
+  const [currentTheme, setCurrentTheme] = useState<Theme>("elegant");
   const [isOpen, setIsOpen] = useState(false);
 
   useEffect(() => {
-    // Load saved theme from localStorage
+    // Load saved theme from localStorage, default to elegant
     const savedTheme = localStorage.getItem("theme") as Theme;
     if (savedTheme && themes[savedTheme]) {
       setCurrentTheme(savedTheme);
       document.documentElement.setAttribute("data-theme", savedTheme);
+    } else {
+      // Set elegant as default theme
+      document.documentElement.setAttribute("data-theme", "elegant");
     }
   }, []);
 
