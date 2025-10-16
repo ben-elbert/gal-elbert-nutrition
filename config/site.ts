@@ -91,6 +91,6 @@ export const siteConfig = {
   },
   analytics: {
     googleAnalyticsId: "G-8YPR9XQZFG",
-    metaPixelId: "", // TODO: Add your Meta Pixel ID when ready
+    metaPixelId: "1489300318966767",
   },
 };
