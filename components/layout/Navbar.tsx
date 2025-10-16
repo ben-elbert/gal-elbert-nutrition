@@ -10,10 +10,10 @@ export function Navbar() {
 
   const navItems = [
     { href: "/", label: "בית" },
-    { href: "#services", label: "שירותים" },
-    { href: "#about", label: "אודות" },
+    { href: "/#services", label: "שירותים" },
+    { href: "/#about", label: "אודות" },
     { href: "/blog", label: "בלוג" },
-    { href: "#contact", label: "צור קשר" },
+    { href: "/#contact", label: "צור קשר" },
   ];
 
   return (
