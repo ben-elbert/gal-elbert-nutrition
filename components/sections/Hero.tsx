@@ -53,12 +53,12 @@ export function Hero() {
           </div>
 
           {/* Image */}
-          <div className="relative h-[400px] lg:h-[600px] rounded-2xl overflow-hidden shadow-2xl bg-gradient-to-br from-secondary-light to-neutral">
+          <div className="relative h-[400px] lg:h-[600px] rounded-2xl overflow-hidden shadow-2xl">
             <Image
               src="/images/gal-profile.jpg"
               alt="גל הלברט - תזונאית קלינית"
               fill
-              className="object-contain"
+              className="object-cover object-top"
               priority
             />
           </div>
