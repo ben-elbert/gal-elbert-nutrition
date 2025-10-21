@@ -55,8 +55,8 @@ export function Hero() {
           {/* Image */}
           <div className="relative h-[400px] lg:h-[600px] rounded-2xl overflow-hidden shadow-2xl">
             <Image
-              src="https://images.unsplash.com/photo-1490645935967-10de6ba17061?w=800&q=80"
-              alt="תזונה בריאה"
+              src="/images/gal-profile.jpg"
+              alt="גל הלברט - תזונאית קלינית"
               fill
               className="object-cover"
               priority
