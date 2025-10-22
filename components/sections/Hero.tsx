@@ -18,7 +18,7 @@ export function Hero() {
             <p className="text-xl md:text-2xl text-gray-700 mb-8 leading-relaxed">
               {siteConfig.valuePropositions.he[0]}
             </p>
-            <p className="text-lg text-gray-600 mb-8">
+            <p className="text-xl md:text-2xl text-gray-700 mb-8 font-medium">
               {siteConfig.valuePropositions.he[1]}
             </p>
 
