@@ -12,13 +12,6 @@ export function Services() {
   return (
     <section id="services" className="section bg-white">
       <div className="container">
-        <div className="text-center mb-16">
-          <h2 className="heading-2 mb-4">השירותים שלי</h2>
-          <p className="text-lg text-gray-600 max-w-2xl mx-auto">
-            מציעה מגוון שירותי תזונה מותאמים אישית לצרכים שלך
-          </p>
-        </div>
-
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
           {siteConfig.services.he.map((service, index) => {
             const Icon = iconMap[service.icon as keyof typeof iconMap];
