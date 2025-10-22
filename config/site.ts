@@ -21,7 +21,7 @@ export const siteConfig = {
     email: "galabarbanel@gmail.com",
     phone: "+972-52-552-5345",
     whatsapp: "+972525525345", // WhatsApp format (no spaces/dashes)
-    calendly: "https://calendly.com/galabarbanel",
+    calendly: "https://calendly.com/galabarbanel/30min",
     address: {
       he: "הרצליה, החליל 6",
       en: "Herzliya, HaHalil 6",
