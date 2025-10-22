@@ -9,8 +9,8 @@ export const siteConfig = {
   },
   valuePropositions: {
     he: [
-      "מלווה אותך בדרך לאורח חיים בריא ומאוזן, עם תוכנית תזונה אישית המותאמת בדיוק לצרכים שלך",
-      "מתמחה בניהול משקל, בריאות המעיים, תזונה בהריון ותזונה לגיל השלישי - עם גישה מדעית ומקצועית",
+      "מזמינה אותך לתת לעצמך את מה שבאמת צריך! זו לא עוד דיאטה - זה שינוי אמיתי בשבילך.",
+      "יעוץ וליווי תזונתי מותאם אישית. מענה מקצועי לבעיות רפואיות ותזונתיות.",
     ],
     en: [
       "Guiding you towards a healthy and balanced lifestyle with a personalized nutrition plan tailored exactly to your needs",
