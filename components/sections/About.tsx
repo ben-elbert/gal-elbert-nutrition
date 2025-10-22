@@ -10,8 +10,8 @@ export function About() {
           {/* Image */}
           <div className="relative h-[400px] lg:h-[500px] rounded-2xl overflow-hidden shadow-xl order-2 lg:order-1">
             <Image
-              src="https://images.unsplash.com/photo-1576091160399-112ba8d25d1d?w=800&q=80"
-              alt="גל הלברט"
+              src="https://images.unsplash.com/photo-1559839734-2b71ea197ec2?w=800&q=80"
+              alt="גל הלברט - תזונאית קלינית"
               fill
               className="object-cover"
             />
