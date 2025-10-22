@@ -20,9 +20,9 @@ const config: Config = {
           dark: "#f5a89f",
         },
         accent: {
-          DEFAULT: "#cac8ac",
-          light: "#e0dec8",
-          dark: "#b3b193",
+          DEFAULT: "#d4956c",
+          light: "#e5b896",
+          dark: "#c17a4f",
         },
         neutral: {
           DEFAULT: "#fff9f3",
