@@ -35,11 +35,13 @@ export function Services() {
 
         <div className="text-center mt-12">
           <a 
-            href="#contact" 
-            className="inline-flex items-center justify-center rounded-lg px-6 py-3 font-medium transition-all duration-200 text-white"
+            href={siteConfig.contact.calendly}
+            target="_blank"
+            rel="noopener noreferrer"
+            className="inline-flex items-center justify-center rounded-lg px-8 py-4 font-medium transition-all duration-200 text-white text-lg"
             style={{ backgroundColor: "var(--primary)" }}
           >
-            בוא נדבר על הצרכים שלך
+            ייעוץ מהיר און-ליין - מחיר מיוחד
           </a>
         </div>
       </div>
