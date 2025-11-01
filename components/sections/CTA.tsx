@@ -1,5 +1,23 @@
+"use client";
 import { Phone, Mail, MapPin, Calendar } from "lucide-react";
 import { siteConfig } from "@/config/site";
+
+function track(name: string, params: Record<string, any>) {
+  try {
+    // GA4
+    // @ts-ignore
+    if (typeof window !== "undefined" && window.gtag) {
+      // @ts-ignore
+      window.gtag("event", name, params);
+    }
+    // Meta Pixel
+    // @ts-ignore
+    if (typeof window !== "undefined" && window.fbq) {
+      // @ts-ignore
+      window.fbq("trackCustom", name, params);
+    }
+  } catch {}
+}
 
 export function CTA() {
   return (
@@ -25,6 +43,9 @@ export function CTA() {
             target="_blank"
             rel="noopener noreferrer"
             className="bg-white/10 backdrop-blur-sm rounded-xl p-6 hover:bg-white/20 transition-all duration-200 text-center"
+            onClick={() =>
+              track("cta_click", { channel: "whatsapp", location: "cta_section" })
+            }
           >
             <Phone size={32} className="mx-auto mb-3" />
             <h3 className="font-semibold mb-2">WhatsApp</h3>
@@ -35,6 +56,7 @@ export function CTA() {
           <a
             href={`mailto:${siteConfig.contact.email}`}
             className="bg-white/10 backdrop-blur-sm rounded-xl p-6 hover:bg-white/20 transition-all duration-200 text-center"
+            onClick={() => track("cta_click", { channel: "email", location: "cta_section" })}
           >
             <Mail size={32} className="mx-auto mb-3" />
             <h3 className="font-semibold mb-2">אימייל</h3>
@@ -47,6 +69,9 @@ export function CTA() {
             target="_blank"
             rel="noopener noreferrer"
             className="bg-white/10 backdrop-blur-sm rounded-xl p-6 hover:bg-white/20 transition-all duration-200 text-center"
+            onClick={() =>
+              track("cta_click", { channel: "calendly", location: "cta_section" })
+            }
           >
             <Calendar size={32} className="mx-auto mb-3" />
             <h3 className="font-semibold mb-2">קביעת תור</h3>
@@ -59,6 +84,7 @@ export function CTA() {
             target="_blank"
             rel="noopener noreferrer"
             className="bg-white/10 backdrop-blur-sm rounded-xl p-6 hover:bg-white/20 transition-all duration-200 text-center"
+            onClick={() => track("cta_click", { channel: "maps", location: "cta_section" })}
           >
             <MapPin size={32} className="mx-auto mb-3" />
             <h3 className="font-semibold mb-2">מיקום</h3>

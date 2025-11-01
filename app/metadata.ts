@@ -61,4 +61,5 @@ export const defaultMetadata: Metadata = {
   alternates: {
     canonical: "https://gal-elbert-nutrition.vercel.app",
   },
+  themeColor: "#86745f",
 };

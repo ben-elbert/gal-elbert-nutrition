@@ -112,8 +112,8 @@ export const siteConfig = {
     ],
   },
   social: {
-    instagram: "", // TODO: Add Instagram link
-    facebook: "", // TODO: Add Facebook link
+    instagram: "https://www.instagram.com/galelbert.nutrition/", // TODO: Add Instagram link
+    facebook: "https://www.facebook.com/galelbert", // Facebook Page
     linkedin: "", // TODO: Add LinkedIn link
   },
   analytics: {
