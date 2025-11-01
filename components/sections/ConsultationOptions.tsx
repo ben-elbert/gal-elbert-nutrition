@@ -7,7 +7,7 @@ export function ConsultationOptions() {
   return (
     <div className="grid grid-cols-1 md:grid-cols-2 gap-6 max-w-4xl mx-auto mt-12">
       {/* ייעוץ פרונטלי מלא */}
-      <div className="card hover:shadow-xl transition-shadow duration-300">
+      <div className="card hover:shadow-xl transition-shadow duration-300 flex flex-col h-full">
         <div className="text-center mb-6">
           <h3 className="text-2xl font-bold mb-2" style={{ color: "var(--primary)" }}>
             ייעוץ פרונטלי מלא
@@ -50,7 +50,7 @@ export function ConsultationOptions() {
           href={`https://wa.me/${siteConfig.contact.whatsapp.replace(/[^0-9]/g, "")}`}
           target="_blank"
           rel="noopener noreferrer"
-          className="w-full inline-flex items-center justify-center gap-2 rounded-lg px-6 py-3 font-medium transition-all duration-200 focus:outline-none focus:ring-2 focus:ring-offset-2 text-white"
+          className="w-full inline-flex items-center justify-center gap-2 rounded-lg px-6 py-3 font-medium transition-all duration-200 focus:outline-none focus:ring-2 focus:ring-offset-2 text-white mt-auto"
           style={{ backgroundColor: "var(--primary)" }}
         >
           קביעת פגישה
@@ -59,7 +59,7 @@ export function ConsultationOptions() {
       </div>
 
       {/* ייעוץ און-ליין מהיר */}
-      <div className="card hover:shadow-xl transition-shadow duration-300 relative border-2" style={{ borderColor: "var(--accent)" }}>
+      <div className="card hover:shadow-xl transition-shadow duration-300 relative border-2 flex flex-col h-full" style={{ borderColor: "var(--accent)" }}>
         {/* תג "מחיר מיוחד" */}
         <div className="absolute -top-3 right-4 px-4 py-1 rounded-full text-white text-sm font-bold" style={{ backgroundColor: "var(--accent)" }}>
           🎁 מחיר מיוחד
@@ -108,7 +108,7 @@ export function ConsultationOptions() {
           href={siteConfig.contact.calendly}
           target="_blank"
           rel="noopener noreferrer"
-          className="w-full inline-flex items-center justify-center gap-2 rounded-lg px-6 py-3 font-medium transition-all duration-200 focus:outline-none focus:ring-2 focus:ring-offset-2 text-white"
+          className="w-full inline-flex items-center justify-center gap-2 rounded-lg px-6 py-3 font-medium transition-all duration-200 focus:outline-none focus:ring-2 focus:ring-offset-2 text-white mt-auto"
           style={{ backgroundColor: "var(--accent)" }}
         >
           קביעת תור עכשיו

@@ -84,6 +84,33 @@ export const siteConfig = {
       },
     ],
   },
+  testimonials: {
+    he: [
+      {
+        name: "מאיה ס.",
+        text:
+          "סובלת ממעי רגיש וגל עוזרת לי כבר תקופה בתהליך ארוך וקפדני עם ליווי צמוד, התאמה אישית, רגישות, זמינות גבוהה לכל שאלה, בלבול והתייעצות. ממליצה בחום",
+        sourceUrl: "https://www.facebook.com/galelbert/reviews",
+      },
+      {
+        name: "זיו ג.",
+        text:
+          "רוצה להמליץ מכל הלב על גל המדהימה! מקצועית, קשובה, לא שיפוטית וממש יודעת איך להתאים את התהליך לאורח החיים שלי. הגישה שלה מאוזנת, נעימה ובעיקר – בריאה. מסבירה הכל בצורה ברורה ומקיפה ותמיד זמינה לכל שאלה!",
+        sourceUrl: "https://www.facebook.com/galelbert/reviews",
+      },
+      {
+        name: "אורלי ז.",
+        text: "סובלת מסוכר גבוה בדם ועודף משקל, גל עזרה לי מאוד עם המלצות שלה",
+        sourceUrl: "https://www.facebook.com/galelbert/reviews",
+      },
+      {
+        name: "סיון ג.",
+        text:
+          "גל עזרה לי מאוד בתקופה שהייתה לי התפרצות של קרוהן, מקצועית ונעימה. ממליצה עליה מכל הלב",
+        sourceUrl: "https://www.facebook.com/galelbert/reviews",
+      },
+    ],
+  },
   social: {
     instagram: "", // TODO: Add Instagram link
     facebook: "", // TODO: Add Facebook link
