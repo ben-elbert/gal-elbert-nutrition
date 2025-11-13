@@ -27,6 +27,7 @@ export default function RootLayout({
   return (
     <html lang="he" dir="rtl" className={`${assistant.variable} ${rubik.variable}`}>
       <body className="antialiased">
+        <a href="#main-content" className="skip-link">דלג לתוכן</a>
         {children}
         <Analytics 
           googleAnalyticsId={siteConfig.analytics.googleAnalyticsId}

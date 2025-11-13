@@ -17,18 +17,19 @@ export function Testimonials() {
         <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
           {testimonials.map((t, index) => (
             <div key={index} className="card">
-              <p className="text-gray-700 mb-4 leading-relaxed">&quot;{t.text}&quot;</p>
+              <blockquote className="text-gray-700 mb-4 leading-relaxed">&quot;{t.text}&quot;</blockquote>
               <div className="flex items-center justify-between">
-                <p className="font-semibold text-primary">— {t.name}</p>
+                <cite className="font-semibold text-primary not-italic">— {t.name}</cite>
                 {t.sourceUrl && (
                   <a
                     href={t.sourceUrl}
                     target="_blank"
                     rel="noopener noreferrer"
                     className="text-sm text-primary hover:underline inline-flex items-center gap-1"
+                    aria-label={`צפייה בפייסבוק עבור ${t.name} - ייפתח בחלון חדש`}
                   >
                     צפייה בפייסבוק
-                    <ExternalLink size={16} />
+                    <ExternalLink size={16} aria-hidden="true" />
                   </a>
                 )}
               </div>

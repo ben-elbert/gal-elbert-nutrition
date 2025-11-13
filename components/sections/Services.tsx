@@ -24,7 +24,7 @@ export function Services() {
                     color: "var(--primary)"
                   }}
                 >
-                  <Icon size={32} />
+                  <Icon size={32} aria-hidden="true" />
                 </div>
                 <h3 className="heading-3 mb-3">{service.title}</h3>
                 <p className="text-gray-600">{service.description}</p>

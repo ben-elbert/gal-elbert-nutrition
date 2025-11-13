@@ -109,7 +109,7 @@ export function ConsultationOptions() {
           target="_blank"
           rel="noopener noreferrer"
           className="w-full inline-flex items-center justify-center gap-2 rounded-lg px-6 py-3 font-medium transition-all duration-200 focus:outline-none focus:ring-2 focus:ring-offset-2 text-white mt-auto"
-          style={{ backgroundColor: "var(--accent)" }}
+          style={{ backgroundColor: "var(--accent-strong)" }}
         >
           קביעת תור עכשיו
           <ArrowLeft size={20} />
